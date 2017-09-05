@@ -1,1 +1,1 @@
-module.exports = []
+module.exports = [{"name":"HelloWorld","description":"","props":{"message":{"type":{"name":"custom","raw":"PropTypes.string"},"required":false,"description":""}},"code":"import React from 'react';\n\nfunction HelloWorld({message}) {\n  return <div>Hi {message}</div>\n}\n \nHelloWorld.propTypes = {\n  message: PropTypes.string\n}\n\nexport default HelloWorld;","examples":[]}]
