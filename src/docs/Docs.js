@@ -3,7 +3,7 @@ import Navigation from './Navigation';
 import ComponentPage from './ComponentPage';
 import componentData from '../../config/componentData';
 
-export default class Docs extends React.Component {
+class Docs extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -30,4 +30,4 @@ export default class Docs extends React.Component {
   }
 }
 
-export default componentName;
+export default Docs;
